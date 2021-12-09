@@ -37,7 +37,6 @@ Speedtest для сайта незаменим в том случае если �
 
 ```sh
     <VirtualHost *:9999>
-    ServerAdmin sendrepomail@gmail.com
     DocumentRoot /var/www/speedtest
     ErrorLog ${APACHE_LOG_DIR}/error-speedtest.log
     CustomLog ${APACHE_LOG_DIR}/access-speedtest.log combined
