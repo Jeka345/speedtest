@@ -33,7 +33,7 @@
       ]
     };
     var comopenspeedtestcdn = "";
-    var TestServerip = "http://cdn02.mylifeisgood.ml:24500";
+    var TestServerip = "";
     function ostOnload() {
       console.log("OpenSpeedtest.com V3 Loaded!")
     }
@@ -211,11 +211,11 @@
     </symbol>
     <symbol id="pingRc3" viewBox="0 0 28.43 13.85">
       <g>
-        <text transform="translate(0 10.52)" class="rtext">Пинг</text>
+        <text transform="translate(0 10.52)" class="rtext"> Пинг</text>
       </g>
     </symbol>
     <symbol id="jitterRc3" viewBox="0 0 39.95 13.85">
-      <text class="rtext" transform="translate(0 9.64)">Потеря<tspan class="rtext" x="9.44" y="0"></tspan>
+      <text class="rtext" transform="translate(0 9.64)"> Потеря<tspan class="rtext" x="9.44" y="0"></tspan>
       </text>
     </symbol>
     <symbol id="downResultC1" viewBox="0 0 53.35 39.8">
@@ -264,7 +264,7 @@
     </symbol>
     <symbol id="playButton" style="fill: #eaeaea" viewBox="0 0 191.255 191.255">
       <rect width="180" height="90" rx="10" ry="10" class="startButton" />
-      <text class="buttonTxt" x="90" y="60">Start</text>
+      <text class="buttonTxt" x="90" y="60">Запустить</text>
     </symbol>
     <symbol id="introProgress" viewBox="0 0 409.31 10.48">
       <line x1="5" y1="5" x2="405" y2="5"></line>
@@ -288,7 +288,7 @@
       <text id="YourIP" transform="translate(140 228) scale(.6 1)">Скорость доступа к серверу айпи тв</text>
     </symbol>
     <svg class="Desktop" viewBox="0 0 586 346">
-      <title id="title1">HTML5 internet speed test application! by OpenSpeedtest.com</title>
+      <title id="title1">Бесплатный тестер скорости на HTML5 от OpenSpeedtest.com</title>
       <g id="UI-Desk">
         <use id="mainGuagebg-Desk" class="main-Guagebg" xlink:href="#mainGuagebg" x="10.28" y="36.11" width="273.94"
           height="245.39"></use>
@@ -392,7 +392,7 @@
         </use>
         <use id="startButtonDesk" class="startButton" xlink:href="#playButton" x="125" y="300.6" width="50.2"
           height="50.2">
-          <title id="title1">Click here to run a speed test!</title>
+          <title id="title1">Нажми тут чтобы запустить тест скорости до сервера</title>
         </use>
         <use id="settingsDesk" class="Startsettings" xlink:href="#settings" x="100" y="260" width="100" height="40">
           <title id="title1">Options</title>
@@ -401,7 +401,7 @@
       </g>
     </svg>
     <svg class="Mobile" viewBox="0 0 295.9 363.3">
-      <title id="title1">HTML5 internet speed test application! by OpenSpeedtest.com</title>
+      <title id="title1">Бесплатный тестер скорости на HTML5 от OpenSpeedtest.com</title>
       <g id="UI-Mob">
         <use id="mainGuagebg-Mob" class="main-Guagebg" xlink:href="#mainGuagebg" x="11.18" y="12" width="273.94"
           height="245.39"></use>
@@ -463,7 +463,7 @@
         </use>
         <use id="startButtonMob" class="startButton" xlink:href="#playButton" x="125" y="280" width="50.2"
           height="50.2">
-          <title id="title1">Click here to run a speed!</title>
+          <title id="title1">Нажми тут чтобы запустить тест скорости до сервера</title>
         </use>
         <use id="settingsMob" class="Startsettings" xlink:href="#settings" x="100" y="240" width="100" height="40">
           <title id="title1">Options</title>
@@ -482,17 +482,7 @@
   </svg>
   </br>
   <div align="center">
-    <a id='text' href="http://openspeedtest.com?ref=OfflineTool">Speedtest by OpenSpeedtest.com!</a>
   </div>
   <script src="app.js"></script>
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date(); a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-44225000-1', 'auto');
-    ga('send', 'pageview');
-  </script> </body>
+  </body>
 </html>
